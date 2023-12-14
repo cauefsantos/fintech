@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/global.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand">Fintech</a>
+        </div>
+    </header>
+
+    <div class="saldo">
+        <p class="saldo__titulo">Saldo</p>
+        <p class="saldo__valor">R$ 10.760,00</p>
+    </div>
+
+    <main>
+        <nav class="infosHeader row justify-content-center">
+            <h2 class="infosHeader__titulo col-7">Outubro 2023</h2>
+            <button class="infosHeader__btn col-1" disabled>&lt;</button>
+            <button class="infosHeader__btn col-1">&gt;</button>
+        </nav>
+        <section class="infos">
+            <div class="row justify-content-center">
+                <h3 class="col-5 infos__titulo">Receitas</h3>
+                <button class="col-1 infos__btn income-btn"></button>
+                <button class="col-1 infos__btn detail-btn"></button>
+            </div>
+            <p class="col infos__valor texto-positivo">R$ 5.000,00</p>
+        </section>
+        <section class="infos">
+            <div class="row justify-content-center">
+                <h3 class="col-5 infos__titulo">Gastos</h3>
+                <button class="col-1 infos__btn expenses-btn"></button>
+                <button class="col-1 infos__btn detail-btn"></button>
+            </div>
+            <p class="infos__valor texto-negativo">R$ 3.400,00</p>
+        </section>
+        <section class="infos">
+            <div class="row justify-content-center">
+                <h3 class="col offset-3 infos__titulo">Balanço mensal</h3>
+            </div>
+            <p class="infos__valor texto-positivo">R$ 1.600,00</p>
+        </section> 
+    </main>
+    <hr>
+    <section class="objetivo">
+        <h2 class="objetivo__titulo">Objetivo</h2>   
+        <div class="row justify-content-center">
+            <h3 class="col objetivo__primario">Educação</h3>
+            <span class="col-auto objetivo__maximo">R$ 1.000,00</span>
+        </div>
+        <progress class="row objetivo__progresso" value="200" max="1000"></progress>
+        <span class="objetivo__atual">R$ 200,00</span>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

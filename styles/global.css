@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #6E2270;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.saldo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.saldo__titulo, .infosHeader__titulo, .objetivo__titulo {
+    margin-bottom: 0;
+    color: #6E2270;
+    font-weight: 700;
+}
+
+.saldo__valor {
+    color: #407022;
+}
+
+.infosHeader {
+    margin-bottom: 1rem;
+}
+
+.infosHeader__btn {
+    background-color: unset;
+    font-weight: 700;
+    color: #6E2270;
+    padding: 0;
+    border: #E3E3E3 solid 1px;
+    border-radius: 6px;
+    margin-left: 0.25rem;
+}
+
+.infos__titulo {
+    font-weight: 700;
+}
+
+.infos__btn {
+    background-color: #6E2270;
+    border: unset;
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 1rem;
+}
+
+.income-btn {
+    background-image: url(../images/income-icon.svg);
+}
+
+.detail-btn {
+    background-image: url(../images/detail-icon.svg);
+}
+
+.expenses-btn {
+    background-image: url(../images/expenses-icon.svg);
+}
+
+.infos__valor {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.texto-positivo {
+    color: #407022;
+}
+
+.texto-negativo {
+    color: #702222;
+}
+
+.objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.objetivo__primario{
+    font-size: 1.25rem;
+}
+
+.objetivo__maximo {
+    font-size: 1rem;
+}
+
